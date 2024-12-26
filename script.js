@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     incrementButton.addEventListener("click", () => {
         const currentValue = parseInt(counterElement.textContent, 10);
-        alert(Current value);
+        alert(Current value: ${currentValue}`);
         counterElement.textContent = currentValue + 1;
     });
 });
